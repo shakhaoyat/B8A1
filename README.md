@@ -6,5 +6,5 @@ This repository contains my solutions for Module 4, Assignment 1.
 - `solutions.ts` - all eight problem solutions
 
 ## Blog Posts
-- [Understanding Type Narrowing in TypeScript](./type-narrowing.md)
-- [Access Modifiers in TypeScript OOP](./access-modifiers.md)
+- [1.Understanding Type Narrowing in TypeScript](./type-narrowing.md)
+- [2.Access Modifiers in TypeScript OOP](./access-modifiers.md)
