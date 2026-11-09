@@ -54,3 +54,17 @@ function pluckValues<T, K extends keyof T>(
 ): T[K][] {
   return items.map((item: T): T[K] => item[key]);
 }
+
+class Employee {
+  protected name: string;
+  private baseSalary: number;
+
+  constructor(name: string, baseSalary: number) {
+    this.name = name;
+    this.baseSalary = baseSalary;
+  }
+
+  getDetails(): string {
+    return `Employee: ${this.name}, Base Salary: ${this.baseSalary}`;
+  }
+}
